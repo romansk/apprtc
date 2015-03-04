@@ -70,7 +70,7 @@ public class AppRTCAudioManager {
   // there is a choice between SPEAKER_PHONE and EARPIECE.
   // TODO(henrika): it is possible that EARPIECE should be preferred in some
   // cases. If so, we should set this value at construction instead.
-  private final AudioDevice defaultAudioDevice = AudioDevice.SPEAKER_PHONE;
+  private final AudioDevice defaultAudioDevice = AudioDevice.EARPIECE;
 
   // Proximity sensor object. It measures the proximity of an object in cm
   // relative to the view screen of a device and can therefore be used to
